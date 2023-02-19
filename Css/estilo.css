@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.bgimage {
+  background-image: url(../img/csfondo.jpg);
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.navbar, .footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem; }
+
+.navlinks, .footerlinks {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+  color: black; }
+
+.ancla {
+  text-decoration: none;
+  color: black;
+  outline: 0;
+  cursor: pointer; }
+
+.bg-tips {
+  background-image: url(../img/cstt.jpg);
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.bg-contacto {
+  background-image: url(../img/cschinaicardi.jpg);
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.bg-setings {
+  background-image: url(../img/cspros.jpg);
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover; }

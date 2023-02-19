@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.bgimage{
+    background-image: url(../img/csfondo.jpg);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar, .footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+}
+.navlinks, .footerlinks{
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    color: black;
+}
+.ancla{
+    text-decoration: none;
+    color: black;
+    outline: 0;
+    cursor: pointer;
+}
+.bgimage1{
+    background-image: url(../img/cstt.jpg);
+    
+}
+
